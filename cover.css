@@ -116,6 +116,10 @@ hr {
   border-bottom-color: #3498db;
 }
 
+a#logo-heading{
+  text-decoration: none;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;

@@ -23,10 +23,12 @@ body {
 body {
   color: #333;
   text-align: center;
-  /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
-  /*background-image: url("img/socks.jpg");*/
 }
 
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 /*
  * Header
@@ -49,8 +51,7 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #333; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
+  color: #34495e; /* IE8 proofing */
   border-bottom: 2px solid transparent;
 }
 
@@ -75,9 +76,14 @@ body {
 .centered {
    text-align: center;
 }
+
 .centered > div {
    float: none;
    display: inline-block;
+}
+
+a#logo-heading{
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
